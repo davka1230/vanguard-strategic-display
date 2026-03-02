@@ -18,7 +18,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter="/vanguard-strategic-display">
+      <BrowserRouter basename="/vanguard-strategic-display">
         <Navbar />
         <Routes>
           <Route path="/" element={<Index />} />
